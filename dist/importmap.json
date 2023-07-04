@@ -1,0 +1,5 @@
+{
+  "imports": {
+    "helloWorldConsole": "/modules/hello-world.js"
+  }
+}

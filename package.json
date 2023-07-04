@@ -1,0 +1,26 @@
+{
+  "name": "wmr-demo",
+  "version": "1.0.0",
+  "description": "Demo of using WMR to do unbundled development.",
+  "main": "app/index.html",
+	"scripts": {
+		"start": "wmr --public app",
+		"build": "wmr build --public app",
+		"serve": "wmr serve --http2 --public app",
+    "new-component": "node ./bin/new-component.js",
+    "new-module": "node ./bin/new-module.js",
+    "license": "npx isc-license > LICENSE.md",
+    "test": "wmr serve --http2 --public dist"
+	},
+  "author": "Scott Gamon",
+  "license": "ISC",
+  "devDependencies": {
+    "lodash.camelcase": "^4.3.0",
+    "lodash.kebabcase": "^4.1.1",
+		"wmr": "^3.8.0"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.4.0",
+    "lit": "^2.0.2"
+  }
+}
