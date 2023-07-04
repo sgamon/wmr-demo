@@ -27,7 +27,7 @@ Preact. Ths demo assumes the use of W3C Web Components.
 
 ### import maps and bare imports
 
-If you look at the `index.js` file, you will the use ofe bare imports. How
+If you look at the `index.js` file, you will see the use of bare imports. How
 is this possible?
 
 Both WMR and Snowpack support bare imports, but they map the imports in their
