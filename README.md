@@ -23,9 +23,9 @@ This is a variation of my earlier
 Snowpack, sadly, is abandoned. 
 
 WMR is part of the Preact project, so its installer assumes you are using
-Preact. Ths demo assumes the use of W3C Web Components.  
+Preact. Ths demo, on the other hand, assumes the use of W3C Web Components.  
 
-### import maps and bare imports
+### Import Maps and Bare Imports
 
 If you look at the `index.js` file, you will see the use of bare imports. How
 is this possible?
